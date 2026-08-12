@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>North Peak | Premium Digital Marketing & Meta Ads Agency</title>
+  <meta name="description" content="North Peak is an elite digital marketing agency specializing in Social Media Management, Meta Ads (Facebook & Instagram), and Full-to-Full Marketing Handling. 20+ Happy Clients Managed.">
+  
+  <!-- Favicon & Fonts -->
+  <link rel="icon" type="image/png" href="northpeak.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. NAVIGATION BAR
+       ========================================================================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo">
+        <div class="logo-img-wrapper">
+          <img src="northpeak.png" alt="North Peak Logo" class="logo-img">
+        </div>
+        <div class="brand-text">
+          <span class="brand-name text-gold-gradient">NORTH PEAK</span>
+          <span class="brand-sub">DIGITAL MARKETING</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#results" class="nav-link">Results & Proof</a></li>
+        <li><a href="#calculator" class="nav-link">ROI Calculator</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact Us</a></li>
+      </ul>
+
+      <!-- CTA Button -->
+      <div class="nav-cta">
+        <button class="btn btn-primary" data-open-modal="booking-modal">
+          <i class="fa-solid fa-phone"></i> Book a Call
+        </button>
+        <button class="hamburger" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       2. HERO SECTION
+       ========================================================================== -->
+  <section id="hero" class="hero">
+    <div class="hero-glow-bg"></div>
+
+    <div class="container hero-grid">
+      <!-- Left Content -->
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-compass"></i>
+          <span>Elite Growth Agency • 20+ Clients Managed</span>
+        </div>
+
+        <h1 class="hero-headline">
+          Scaling Ambitious Brands <br>
+          <span class="text-gold-gradient">To Peak Performance</span>
+        </h1>
+
+        <div style="font-size: 1.45rem; font-weight: 700; margin-bottom: 1.25rem; font-family: var(--font-accent); color: var(--text-white);">
+          Engineered For <span class="typing-container"><span id="typing-text" class="typing-text"></span></span>
+        </div>
+
+        <p class="hero-subtitle">
+          We turn paid ad spend into high-margin revenue. Specializing in high-converting Meta Ads, strategic Social Media Page Management, and Full-to-Full Marketing Handling.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-open-modal="booking-modal">
+            <i class="fa-solid fa-calendar-check"></i> Book a Call Now
+          </button>
+          <a href="#results" class="btn btn-outline">
+            View Client Proof <i class="fa-solid fa-chart-line"></i>
+          </a>
+        </div>
+
+        <!-- Stat Counter Grid -->
+        <div class="hero-stats-wrapper">
+          <div class="stat-item">
+            <div class="stat-number" data-target="20" data-suffix="+">0+</div>
+            <div class="stat-label">Happy Clients Managed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="15" data-prefix="$" data-suffix="M+">0M+</div>
+            <div class="stat-label">Ad Revenue Generated</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="4.8" data-suffix="x" data-decimals="1">0x</div>
+            <div class="stat-label">Average Campaign ROAS</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="99.4" data-suffix="%" data-decimals="1">0%</div>
+            <div class="stat-label">Client Retention Rate</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Visual Showcase -->
+      <div class="hero-visual">
+        <div class="luxury-card-showcase">
+          <!-- Floating Badge 1 -->
+          <div class="floating-tag tag-top-right">
+            <div class="tag-icon"><i class="fa-solid fa-trophy"></i></div>
+            <div class="tag-text">
+              <strong>Top Meta Ad Partner</strong>
+              <span>Facebook & IG Certified</span>
+            </div>
+          </div>
+
+          <!-- Floating Badge 2 -->
+          <div class="floating-tag tag-bottom-left">
+            <div class="tag-icon"><i class="fa-solid fa-chart-pie"></i></div>
+            <div class="tag-text">
+              <strong>+340% Page Growth</strong>
+              <span>Full Marketing Handling</span>
+            </div>
+          </div>
+
+          <div class="showcase-header">
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <img src="northpeak.png" alt="Logo" style="width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--border-gold);">
+              <div>
+                <div class="showcase-title">North Peak Live Suite</div>
+                <div style="font-size: 0.72rem; color: var(--text-subtle);">Active Client Scaling Overview</div>
+              </div>
+            </div>
+            <div class="showcase-badge">
+              <i class="fa-solid fa-circle"></i> Live Scaling
+            </div>
+          </div>
+
+          <div class="showcase-graph">
+            <svg viewBox="0 0 400 140" style="width: 100%; height: 100%;">
+              <defs>
+                <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#C9A24B" stop-opacity="0.35"/>
+                  <stop offset="100%" stop-color="#1B3A5C" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#FFFFFF"/>
+                  <stop offset="50%" stop-color="#C9A24B"/>
+                  <stop offset="100%" stop-color="#38BDF8"/>
+                </linearGradient>
+              </defs>
+              <path d="M0,120 Q50,110 100,85 T200,60 T300,30 T400,10 L400,140 L0,140 Z" fill="url(#chartGrad)"/>
+              <path d="M0,120 Q50,110 100,85 T200,60 T300,30 T400,10" fill="none" stroke="url(#lineGrad)" stroke-width="4"/>
+              <circle cx="100" cy="85" r="5" fill="#C9A24B"/>
+              <circle cx="200" cy="60" r="5" fill="#FFFFFF"/>
+              <circle cx="300" cy="30" r="5" fill="#C9A24B"/>
+              <circle cx="400" cy="10" r="7" fill="#38BDF8"/>
+            </svg>
+          </div>
+
+          <div class="showcase-metrics">
+            <div class="mini-metric-box">
+              <div class="mini-metric-val">$184,500</div>
+              <div class="mini-metric-lbl">Monthly Client Ad Revenue</div>
+            </div>
+            <div class="mini-metric-box">
+              <div class="mini-metric-val">5.42x</div>
+              <div class="mini-metric-lbl">Blended Campaign ROAS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. TRUST LOGOS MARQUEE
+       ========================================================================== -->
+  <section class="trust-section">
+    <div class="trust-title">Trusted By 20+ Fast-Growing Brands & Companies</div>
+    <div class="marquee-container">
+      <div class="marquee-track">
+        <div class="brand-badge-item"><i class="fa-solid fa-crown"></i> AURA LUXURY</div>
+        <div class="brand-badge-item"><i class="fa-solid fa-shirt"></i> VELOCE APPAREL</div>
+        <div class="brand-badge-item"><i class="fa-solid fa-bolt"></i> APEX TECH</div>
+        <div class="brand-badge-item"><i class="fa-solid fa-feather"></i> VERVE BOTANICALS</div>
+        <div class="brand-badge-item"><i class="fa-solid fa-diamond"></i> LUMINA JEWELRY</div>
+        <div class="brand-badge-item"><i class="fa-solid fa-compass"></i> SOLIS TIMEPIECES</div>
+        <!-- Duplicate for continuous loop -->
+        <div class="brand-badge-item"><i class="fa-solid fa-crown"></i> AURA LUXURY</div>
+        <div class="brand-badge-item"><i class="fa-solid fa-shirt"></i> VELOCE APPAREL</div>
+        <div class="brand-badge-item"><i class="fa-solid fa-bolt"></i> APEX TECH</div>
+        <div class="brand-badge-item"><i class="fa-solid fa-feather"></i> VERVE BOTANICALS</div>
+        <div class="brand-badge-item"><i class="fa-solid fa-diamond"></i> LUMINA JEWELRY</div>
+        <div class="brand-badge-item"><i class="fa-solid fa-compass"></i> SOLIS TIMEPIECES</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. SERVICES SECTION
+       ========================================================================== -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="text-center">
+        <div class="section-tag">
+          <i class="fa-solid fa-layer-group"></i> Core Growth Offerings
+        </div>
+        <h2 class="section-title">Services Tailored To Scale Your Business</h2>
+        <p class="section-subtitle">
+          Whether you need social media page growth, targeted Meta ads, or full-to-full marketing handling, North Peak delivers measurable ROI.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service Card 1: Scale Social Media Page -->
+        <div class="service-card animate-on-scroll">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+            <h3 class="service-card-title">Scale Social Media Page</h3>
+            <p class="service-card-desc">
+              Turn your social channels into client-generating engines. We handle aesthetic feed curation, viral short-form reels, daily posting, and active community engagement.
+            </p>
+
+            <ul class="service-list">
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> High-Converting Content & Reels Creation</li>
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> Brand Feed & Visual Aesthetic Design</li>
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> Active Community & DM Lead Nurturing</li>
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> Organic Follower Growth Strategy</li>
+            </ul>
+          </div>
+
+          <button class="btn btn-primary service-btn" data-open-modal="booking-modal" data-service="Scale Social Media Page">
+            Scale Social Media <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Service Card 2: Meta Ads (Facebook & Instagram) - FEATURED -->
+        <div class="service-card featured animate-on-scroll">
+          <div class="service-badge">Highest ROAS Scale</div>
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-brands fa-meta"></i>
+            </div>
+            <h3 class="service-card-title">Meta Ads (FB & IG)</h3>
+            <p class="service-card-desc">
+              Laser-targeted Facebook & Instagram ad campaigns engineered to lower CAC and maximize ROAS. Advanced audience building, retargeting funnels, and creative split-testing.
+            </p>
+
+            <ul class="service-list">
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> Pixel & CAPI Advanced Setup</li>
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> High-Converting Motion & Video Creatives</li>
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> Custom Retargeting & Lookalike Funnels</li>
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> Daily Bid Optimization & Budget Scaling</li>
+            </ul>
+          </div>
+
+          <button class="btn btn-primary service-btn" data-open-modal="booking-modal" data-service="Meta Ads (FB & IG)">
+            Scale Meta Ads <i class="fa-solid fa-rocket"></i>
+          </button>
+        </div>
+
+        <!-- Service Card 3: Full-to-Full Marketing Handling -->
+        <div class="service-card animate-on-scroll">
+          <div>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-compass-drafting"></i>
+            </div>
+            <h3 class="service-card-title">Full-to-Full Marketing</h3>
+            <p class="service-card-desc">
+              Complete hands-off growth partner. We manage your entire digital presence — from organic social and paid campaigns to sales funnels, email automation, and CRO.
+            </p>
+
+            <ul class="service-list">
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> End-to-End Omni-Channel Strategy</li>
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> Landing Page & Funnel Optimization</li>
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> Multi-Touch Attribution & Reporting</li>
+              <li class="service-list-item"><i class="fa-solid fa-circle-check"></i> Dedicated Weekly Executive VIP Calls</li>
+            </ul>
+          </div>
+
+          <button class="btn btn-primary service-btn" data-open-modal="booking-modal" data-service="Full-to-Full Marketing Handling">
+            Full Marketing Handling <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. SOCIAL PROOF & RESULTS SECTION
+       ========================================================================== -->
+  <section id="results" class="results-section">
+    <div class="container">
+      <div class="text-center">
+        <div class="section-tag">
+          <i class="fa-solid fa-award"></i> Verifiable Success
+        </div>
+        <h2 class="section-title">Client Success Stories & Performance</h2>
+        <p class="section-subtitle">
+          Over 20+ clients managed across various industries with consistent multi-fold growth.
+        </p>
+      </div>
+
+      <div class="case-studies-grid">
+        <!-- Case 1 -->
+        <div class="case-card animate-on-scroll">
+          <div class="case-header">
+            <div class="case-client-info">
+              <div class="case-avatar">AL</div>
+              <div>
+                <div class="case-client-name">Aura Luxury Skincare</div>
+                <div class="case-client-niche">eCommerce & Skincare</div>
+              </div>
+            </div>
+            <i class="fa-brands fa-meta" style="font-size: 1.4rem; color: var(--gold-primary);"></i>
+          </div>
+
+          <div class="case-metrics-banner">
+            <div>
+              <div class="case-stat-val">+342%</div>
+              <div class="case-stat-lbl">Revenue Growth</div>
+            </div>
+            <div>
+              <div class="case-stat-val">5.8x</div>
+              <div class="case-stat-lbl">Meta Ad ROAS</div>
+            </div>
+          </div>
+
+          <div class="case-body">
+            <p class="case-quote">
+              "North Peak completely revolutionized our acquisition funnel. Within 90 days of managing our Meta ads, our monthly revenue scaled from $45k to over $210k while lowering CAC."
+            </p>
+            <div class="case-tags">
+              <span class="case-tag">Meta Ads</span>
+              <span class="case-tag">UGC Creatives</span>
+              <span class="case-tag">Retargeting</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 2 -->
+        <div class="case-card animate-on-scroll">
+          <div class="case-header">
+            <div class="case-client-info">
+              <div class="case-avatar">VA</div>
+              <div>
+                <div class="case-client-name">Veloce Apparel</div>
+                <div class="case-client-niche">Luxury Streetwear</div>
+              </div>
+            </div>
+            <i class="fa-solid fa-share-nodes" style="font-size: 1.4rem; color: var(--gold-primary);"></i>
+          </div>
+
+          <div class="case-metrics-banner">
+            <div>
+              <div class="case-stat-val">2.8M</div>
+              <div class="case-stat-lbl">Organic Reach</div>
+            </div>
+            <div>
+              <div class="case-stat-val">14,200</div>
+              <div class="case-stat-lbl">New Followers</div>
+            </div>
+          </div>
+
+          <div class="case-body">
+            <p class="case-quote">
+              "Their social media page management and viral short-form reel strategy transformed our aesthetic. Every drop now sells out within hours due to the organic hype created."
+            </p>
+            <div class="case-tags">
+              <span class="case-tag">Social Media Page</span>
+              <span class="case-tag">Shorts & Reels</span>
+              <span class="case-tag">Community</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case 3 -->
+        <div class="case-card animate-on-scroll">
+          <div class="case-header">
+            <div class="case-client-info">
+              <div class="case-avatar">AT</div>
+              <div>
+                <div class="case-client-name">Apex Tech Solutions</div>
+                <div class="case-client-niche">B2B & Tech</div>
+              </div>
+            </div>
+            <i class="fa-solid fa-compass-drafting" style="font-size: 1.4rem; color: var(--gold-primary);"></i>
+          </div>
+
+          <div class="case-metrics-banner">
+            <div>
+              <div class="case-stat-val">$1.8M</div>
+              <div class="case-stat-lbl">Pipeline Created</div>
+            </div>
+            <div>
+              <div class="case-stat-val">4.2x</div>
+              <div class="case-stat-lbl">Overall Marketing ROI</div>
+            </div>
+          </div>
+
+          <div class="case-body">
+            <p class="case-quote">
+              "With full-to-full marketing handling, North Peak constructed a multi-channel acquisition system that gave us total market authority. High-paying leads flow in consistently."
+            </p>
+            <div class="case-tags">
+              <span class="case-tag">Full Marketing</span>
+              <span class="case-tag">Funnel Architecture</span>
+              <span class="case-tag">B2B Scale</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. TESTIMONIALS SECTION
+       ========================================================================== -->
+  <section id="testimonials" style="padding: 6rem 0;">
+    <div class="container">
+      <div class="text-center">
+        <div class="section-tag">
+          <i class="fa-solid fa-quote-left"></i> Verified Feedback
+        </div>
+        <h2 class="section-title">Client Testimonials</h2>
+        <p class="section-subtitle">
+          Read what business owners and founders say about scaling with North Peak.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card animate-on-scroll">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Partnering with North Peak was the best decision we made for our business. They took complete control of our Meta ads and scaled us beyond our wildest expectations."
+          </p>
+          <div class="author-info">
+            <div class="author-img" style="background: var(--gradient-gold); display: flex; align-items: center; justify-content: center; font-weight: 800; color: #060D1A;">MS</div>
+            <div>
+              <div class="author-name">Marcus Sterling</div>
+              <div class="author-title">CEO, Luxa Moda</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card animate-on-scroll">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Their full-to-full marketing handling removed all marketing headaches from our team. Our social media pages are active, highly engaged, and driving daily sales."
+          </p>
+          <div class="author-info">
+            <div class="author-img" style="background: var(--navy-primary); display: flex; align-items: center; justify-content: center; font-weight: 800; color: #FFF; border-color: var(--gold-primary);">EH</div>
+            <div>
+              <div class="author-name">Elena Harrison</div>
+              <div class="author-title">Founder, Verve Health</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card animate-on-scroll">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-text">
+            "Managing 20+ clients is proof of their capabilities. The luxury branding and precise targeting they implemented gave us immediate market dominance."
+          </p>
+          <div class="author-info">
+            <div class="author-img" style="background: var(--gradient-gold); display: flex; align-items: center; justify-content: center; font-weight: 800; color: #060D1A;">DV</div>
+            <div>
+              <div class="author-name">David Vance</div>
+              <div class="author-title">Director, Solis Timepieces</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. ROI CALCULATOR SECTION
+       ========================================================================== -->
+  <section id="calculator" class="roi-section">
+    <div class="container">
+      <div class="roi-card">
+        <div>
+          <div class="section-tag"><i class="fa-solid fa-calculator"></i> Growth Projection</div>
+          <h2 class="section-title">Calculate Your Growth Potential</h2>
+          <p style="color: var(--text-body); margin-bottom: 2rem;">
+            Slide your current monthly ad spend and baseline ROAS to see what North Peak's performance optimization can generate.
+          </p>
+
+          <div class="roi-controls">
+            <!-- Slider 1 -->
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Monthly Ad Spend</span>
+                <span id="ad-spend-val" class="slider-val">$10,000</span>
+              </div>
+              <input type="range" id="ad-spend-range" min="2000" max="50000" step="1000" value="10000">
+            </div>
+
+            <!-- Slider 2 -->
+            <div class="slider-group">
+              <div class="slider-label">
+                <span>Current ROAS</span>
+                <span id="roas-val" class="slider-val">2.0x</span>
+              </div>
+              <input type="range" id="roas-range" min="1.0" max="4.0" step="0.1" value="2.0">
+            </div>
+          </div>
+        </div>
+
+        <div class="roi-result-box">
+          <div class="roi-result-title">Projected Monthly Revenue</div>
+          <div id="projected-revenue" class="roi-projected-num">$45,000</div>
+          
+          <div class="roi-result-title" style="margin-top: 1rem;">Estimated Profit Lift</div>
+          <div id="projected-profit-lift" style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; color: var(--gold-light); margin-bottom: 1.5rem;">+$25,000</div>
+
+          <button class="btn btn-primary" style="width: 100%;" data-open-modal="booking-modal">
+            Claim Growth & Book Call <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. INLINE CONTACT SECTION
+       ========================================================================== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="text-center">
+        <div class="section-tag">
+          <i class="fa-solid fa-paper-plane"></i> Get In Touch
+        </div>
+        <h2 class="section-title">Request A Growth Consultation</h2>
+        <p class="section-subtitle">
+          Ready to scale your social media page, Meta ads, or hand over full marketing management? Send us a quick request below or book a direct call.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info -->
+        <div class="contact-info-box">
+          <h3 style="font-size: 1.6rem; font-weight: 700; margin-bottom: 1.5rem; color: var(--text-white);">Let's Build Something Great</h3>
+          
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-building"></i></div>
+            <div class="info-details">
+              <h4>North Peak Digital Headquarters</h4>
+              <p>20+ Clients Managed Worldwide</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="info-details">
+              <h4>Direct Consultation Email</h4>
+              <p>growth@northpeakdigital.com</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="info-details">
+              <h4>Client VIP Line</h4>
+              <p>+1 (800) 984-PEAK</p>
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem; text-align: center;">
+            <button class="btn btn-primary" style="width: 100%;" data-open-modal="booking-modal">
+              <i class="fa-solid fa-calendar-check"></i> Open Strategy Booking Form
+            </button>
+          </div>
+        </div>
+
+        <!-- Inline Consultation Form -->
+        <div class="lead-form-card">
+          <form id="consultation-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="form-name">Your Full Name *</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. John Smith" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="form-email">Email Address *</label>
+                <input type="email" id="form-email" class="form-input" placeholder="john@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-phone">Phone / WhatsApp Number *</label>
+              <input type="tel" id="form-phone" class="form-input" placeholder="+1 (555) 000-0000" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">What Do You Want To Scale? *</label>
+              <div class="goal-option-cards">
+                <div class="goal-card-option">
+                  <input type="radio" id="ig1" name="inline_service" value="Scale Social Media Page">
+                  <label for="ig1">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <span>Scale Social Media Page</span>
+                  </label>
+                </div>
+
+                <div class="goal-card-option">
+                  <input type="radio" id="ig2" name="inline_service" value="Meta Ads (FB & IG)">
+                  <label for="ig2">
+                    <i class="fa-brands fa-meta"></i>
+                    <span>Run Meta Ads (FB & IG)</span>
+                  </label>
+                </div>
+
+                <div class="goal-card-option">
+                  <input type="radio" id="ig3" name="inline_service" value="Full-to-Full Marketing Handling" checked>
+                  <label for="ig3">
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <span>Full Marketing Handling</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.05rem; padding: 1rem;">
+              Submit Strategy Request <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. BOOK A CALL STRATEGY MODAL FORM
+       ========================================================================== -->
+  <div id="booking-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      
+      <!-- FORM BODY VIEW -->
+      <div id="modal-form-body">
+        <div class="modal-header">
+          <div class="modal-header-icon"><i class="fa-solid fa-calendar-check"></i></div>
+          <h3 class="modal-title text-gold-gradient">Book Strategy Call</h3>
+          <p class="modal-subtitle">Fill out your details below to schedule your 1-on-1 growth consultation with North Peak.</p>
+        </div>
+
+        <form id="modal-booking-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="mb-name">Full Name *</label>
+              <input type="text" id="mb-name" class="form-input" placeholder="e.g. Alex Turner" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="mb-email">Email Address *</label>
+              <input type="email" id="mb-email" class="form-input" placeholder="alex@brand.com" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="mb-phone">Phone / WhatsApp Number *</label>
+              <input type="tel" id="mb-phone" class="form-input" placeholder="+1 (555) 000-0000" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="mb-company">Business / Company Name</label>
+              <input type="text" id="mb-company" class="form-input" placeholder="e.g. Acme Apparel">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">What Do You Want To Scale? *</label>
+            <div class="goal-option-cards">
+              <div class="goal-card-option">
+                <input type="radio" id="g1" name="mb_service" value="Scale Social Media Page">
+                <label for="g1">
+                  <i class="fa-solid fa-share-nodes"></i>
+                  <span>Scale Social Media Page</span>
+                </label>
+              </div>
+
+              <div class="goal-card-option">
+                <input type="radio" id="g2" name="mb_service" value="Meta Ads (FB & IG)">
+                <label for="g2">
+                  <i class="fa-brands fa-meta"></i>
+                  <span>Run Meta Ads (FB & IG)</span>
+                </label>
+              </div>
+
+              <div class="goal-card-option">
+                <input type="radio" id="g3" name="mb_service" value="Full-to-Full Marketing Handling" checked>
+                <label for="g3">
+                  <i class="fa-solid fa-compass-drafting"></i>
+                  <span>Full Marketing Handling</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="mb-datetime">Preferred Date & Time for Call</label>
+            <input type="datetime-local" id="mb-datetime" class="form-input">
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.05rem; padding: 1rem; margin-top: 0.5rem;">
+            Confirm Strategy Call Booking <i class="fa-solid fa-circle-check"></i>
+          </button>
+        </form>
+      </div>
+
+      <!-- SUCCESS CONFIRMATION VIEW (Hidden until submitted) -->
+      <div id="modal-booking-success" class="booking-success-box">
+        <div class="modal-header-icon" style="background: var(--gradient-gold); color: #060D1A;"><i class="fa-solid fa-check"></i></div>
+        <h3 class="modal-title text-gold-gradient">Call Booking Confirmed!</h3>
+        <p class="modal-subtitle">Your strategy consultation has been successfully booked with North Peak.</p>
+
+        <div class="booking-summary-card">
+          <div class="summary-row">
+            <span class="summary-label">Reference ID:</span>
+            <span class="summary-val" id="sum-ref" style="color: var(--gold-light);">NP-849201</span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">Client Name:</span>
+            <span class="summary-val" id="sum-name"></span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">Email:</span>
+            <span class="summary-val" id="sum-email"></span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">Phone:</span>
+            <span class="summary-val" id="sum-phone"></span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">Scaling Goal:</span>
+            <span class="summary-val" id="sum-service" style="color: var(--gold-primary);"></span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">Preferred Time:</span>
+            <span class="summary-val" id="sum-time"></span>
+          </div>
+        </div>
+
+        <button class="btn btn-primary reset-modal-btn modal-close" style="width: 100%;">Done & Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       10. FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo">
+            <div class="logo-img-wrapper">
+              <img src="northpeak.png" alt="North Peak Logo" class="logo-img">
+            </div>
+            <div class="brand-text">
+              <span class="brand-name text-gold-gradient">NORTH PEAK</span>
+              <span class="brand-sub">DIGITAL MARKETING</span>
+            </div>
+          </a>
+          <p>
+            Premium digital marketing agency engineered for 20+ clients and growing. Scaling brands through Meta Ads, Social Media Page Management, and Full-to-Full Marketing Handling.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Services -->
+        <div class="footer-col">
+          <h4>Core Offerings</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Scale Social Media Page</a></li>
+            <li><a href="#services">Meta Ads (FB & IG)</a></li>
+            <li><a href="#services">Full-to-Full Marketing</a></li>
+            <li><a href="#services">Reels & UGC Production</a></li>
+            <li><a href="#services">ROAS Audit</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Links -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#results">Case Studies</a></li>
+            <li><a href="#calculator">ROI Growth Calculator</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact -->
+        <div class="footer-col">
+          <h4>Contact & Support</h4>
+          <ul class="footer-links">
+            <li><span style="color: var(--text-subtle);">Email:</span> growth@northpeakdigital.com</li>
+            <li><span style="color: var(--text-subtle);">Phone:</span> +1 (800) 984-PEAK</li>
+            <li><span style="color: var(--text-subtle);">Location:</span> New York & Global Remote</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 North Peak Digital Marketing. All Rights Reserved.</div>
+        <div>Designed with Navy Blue, Gold & White Precision</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
